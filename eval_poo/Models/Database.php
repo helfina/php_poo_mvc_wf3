@@ -1,19 +1,17 @@
 <?php
-
-namespace Modeles;
+namespace Models;
 use PDO;
 use PDOException;
 
 class Database extends PDO{
-
 
     private static $instance;
 
     // Informations de connexion
     private const DBHOST = 'localhost';
     private const DBUSER = 'root';
-    private const DBPASS = '';
-    private const DBNAME = 'demo_poo';
+    private const DBPASS = 'root';
+    private const DBNAME = 'gk_wf3_php_final_gaelle';
 
 
     private function __construct()

@@ -1,0 +1,13 @@
+#  ici on ecrit en PERL
+
+# Active les liens symbolique (on accepte les raccourcis)
+#Options +FollowSymlinks
+
+# Active le module de reecriture
+#RewriteEngine on
+
+# REGLE DE REECRITURE:  RewriteRule [^URL VOULUE$][URL ORIGINELLE]
+#RewriteRule ^/contact$   /index.php?page=contact
+#RewriteRule ^contact$   /index.php?page=$1
+#RewriteRule ^([-a-z0-9]+)$ /addPlayer.php?page=$1 [L]
+#RewriteRule ^([-a-z0-9]+)$ /addPlayer.php?page=$2 [L]
